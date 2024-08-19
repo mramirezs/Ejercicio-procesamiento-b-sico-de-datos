@@ -13,8 +13,8 @@ Vamos a nuestro terminal.
 - Crear el directorio de trabajo genecode_annotation_v46
 - Descargar el archivo de anotación gencode.v46.annotation.gff3.gz
 - Verificar el tamaño de archivo gencode.v46.annotation.gff3.gz
-- Visualizar las primeras líneas del archivo de anotación (zcat)
-- Usar la opción -l con zcat y verficar los datos.
+- Visualizar las primeras líneas del archivo de anotación sin descomprimir (zcat)
+- Usar la opción `-l` con zcat y verficar los datos.
 - Descomprimir el archivo de anotación (gunzip).
 - Visualizar el contenido total del archivo descomprimido.
 
@@ -23,7 +23,8 @@ Vamos a nuestro terminal.
 - Omitir las `#` al inicio de las líneas del archivo descomprimido (`^`).
 - Obtener la tercera columna del archivo y observar las 10 primeras líneas
 - Ordenarlos y contar las categorias únicos que se encuentran en la columna.
-- ¿Cuál es el número de transcript` que se obtienen?
+- ¿Cuál es el número de `transcript` que se obtienen?
 - Convertir el archvivo gff a bed.
 - Ordenar por cromosomas y por la posición inicial (`-V`)
-- Convertir al formato punto y coma (`tr`) 
+- Convertir al formato punto y coma (`tr`)
+
