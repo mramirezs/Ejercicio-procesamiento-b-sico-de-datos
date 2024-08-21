@@ -32,7 +32,7 @@ Vamos a nuestro terminal.
 
 Archivo de datos crudos:
 
-ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR000/ERR000001/ERR000001_1.fastq.gz
+ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR000/ERR000001/ERR000001_1.fastq.gz  
 
 Vamos a nuestro terminal, nuevamente.
 
